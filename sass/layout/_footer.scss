@@ -1,0 +1,134 @@
+.footer {
+    padding-top: 45px;
+    padding-bottom: 33px;
+    display: block;
+    @media screen and (max-width: 768px) {
+        padding-top: 47px;
+        padding-bottom: 21px;
+      }
+    @media screen and (max-width: 320px) {
+        padding-top: 31px;
+        padding-bottom: 32px;
+      }
+}
+
+.container {
+    max-width: 1024px;
+    margin: auto;
+    scroll-behavior: smooth;
+}
+
+.footer__body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item1 {
+    max-width: 312px;
+    padding-top: 0px;
+    margin-left: 116px;
+    margin-right: 129px;
+    @media screen and (max-width: 768px) {
+        max-width: 312px;
+        margin-left: 56px;
+        margin-right: 0px;
+    }
+    @media screen and (max-width: 320px) {
+        max-width: 261px;
+        margin-left: 21px;
+        margin-right: 0px;
+    }
+}
+
+.footer__link{
+    @media screen and (max-width: 320px) {
+       margin-top: 4px;
+    }
+}
+
+
+.footer__item *:not(:last-child) {
+    margin-bottom: 40px;
+    @media screen and (max-width: 320px) {
+        margin-bottom: 25px;
+    }
+}
+
+.text-footer {
+    display: flex;
+    max-height: 32px;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    font-style: normal;
+    color: $color-secondary;
+    @media screen and (max-width: 320px) {
+        font-size: 16px;
+    }
+}
+
+.footer__tab {
+    margin-right: 20px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.item2 {
+    max-width: 302px;
+    @media screen and (max-width: 320px) {
+        padding-top: 30px;
+    }
+}
+
+.text-footer_location {
+    font-size: 20px;
+    margin-left: -4px;
+    margin-top: -9px;
+    @media screen and (max-width: 768px) {
+        margin-left: 36px;
+        font-size: 18px;
+        margin-top: 0px;
+    }
+    @media screen and (max-width: 320px) {
+        font-size: 16px;
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+}
+
+.social {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding: 0px;
+    margin: 0px;
+    height: 35px;
+    @media screen and (max-width: 768px) {
+        margin: 0px 0px 0px 35px;
+    }
+    @media screen and (max-width: 320px) {
+        margin: 32px 20px 27px 20px;
+    }
+}
+
+.item3{
+    padding-top: 37px;
+    margin-left: 235px;
+    @media screen and (max-width: 768px) {
+        margin-left: 125px;
+        padding-top: 35px;
+    }
+    @media screen and (max-width: 320px) {
+        margin-left: 20px;
+        padding-top: 1px;
+    }
+}
+
+.footer{
+    background-color: $color-primary;
+}

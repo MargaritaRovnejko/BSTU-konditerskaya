@@ -1,0 +1,40 @@
+
+.header__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 22px 17px 34px;
+    @media screen and (max-width: 768px){
+    padding: 12px 2px 22px 34px;
+    }
+    @media screen and (max-width: 320px){
+        padding: 7px 10px 6px 6px;
+    }
+}
+
+.burger-menu{
+    display: none;
+    @media screen and (max-width: 320px){
+        display: block;
+    }
+}
+
+.header__logo{
+    a{
+        img{
+            @media screen and (max-width: 320px){
+                width: 20px;
+                height: 20px;
+            } 
+        }
+    }
+  
+}
+
+
+
+
+
+
+

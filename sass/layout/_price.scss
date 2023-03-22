@@ -1,0 +1,114 @@
+.price__container {
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    @media screen and (max-width: 768px) {
+        gap: 31px; 
+        padding-bottom: 90px;
+    }
+    @media screen and (max-width: 320px) {
+        gap: 7px; 
+        padding-bottom: 37px;
+    }
+}
+
+.container {
+    max-width: 1024px;
+    margin: auto;
+    scroll-behavior: smooth;
+    padding-left: 26px;
+    padding-right: 26px;
+    @media screen and (max-width: 768px) {
+        padding-left: 22px;
+        padding-right: 22px;
+      }
+      @media screen and (max-width: 320px) {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+}
+
+.heading__line {
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+    background-image: linear-gradient(to top, $color-primary 49%, $color-secondary 49%, $color-secondary 51%, $color-primary 51%);
+    @media screen and (max-width: 768px) {
+        width: 67%;
+    }
+}
+
+.h2_color-back {
+    background-color: $color-primary;
+    padding: 30px 43.94px 30px 19.97px;
+    @media screen and (max-width: 768px) {
+        padding: 15px 23px 19px 27px;
+    }
+    @media screen and (max-width: 320px) {
+        padding: 2px 15px 5px 10px;
+    }
+}
+
+.price__container .layout-colomn {
+    gap: 25px;
+    @media screen and (max-width: 320px) {
+        gap: 15px;
+    }
+}
+
+.layout-colomn {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.plan {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 13px;
+    padding-bottom: 18px;
+    border: 3px solid $color-secondary;
+}
+
+.plan span {
+    font-family: Merriweather, "Times New Roman", Times, serif;
+    font-size: 2.5rem;
+    line-height: 4.8rem;
+    font-weight: 700;
+    font-style: normal;
+    padding: 0px;
+    color: $color-secondary;
+}
+
+.plan p {
+    font-size: 2.2rem;
+    line-height: 3.6rem;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px;
+    color: $color-light;
+}
+
+.button3 {
+    width: 189.75px;
+    height: 55px;
+    cursor: pointer;
+    font-size: 2.2rem;
+    line-height: 4rem;
+    font-weight: 400;
+    font-style: normal;
+    color: $color-secondary;
+    font-family: Merriweather, Times, serif;
+    border: 2px solid $color-secondary;
+    background: none;
+    margin: 24px 0px 0px 0px;
+  }
+
+.price{
+    background-color: $color-primary;
+}

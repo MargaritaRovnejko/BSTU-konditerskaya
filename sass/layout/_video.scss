@@ -1,0 +1,179 @@
+.video__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 90.53px;
+    gap: 40px;
+    @media screen and (max-width: 768px) {
+        padding-bottom: 70.41px;
+        gap: 30px;
+    }
+    @media screen and (max-width: 320px) {
+        padding-bottom: 17px;
+        gap: 7px;
+    }
+}
+
+.container {
+    max-width: 1024px;
+    margin: auto;
+    scroll-behavior: smooth;
+    padding-left: 26px;
+    padding-right: 26px;
+    @media screen and (max-width: 768px) {
+        padding-left: 22px;
+        padding-right: 22px;
+      }
+      @media screen and (max-width: 320px) {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+}
+
+.heading__line {
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+    background-image: linear-gradient(to top, $color-primary 49%, $color-secondary 49%, $color-secondary 51%, $color-primary 51%);
+    @media screen and (max-width: 768px) {
+        width: 67%;
+    }
+}
+
+.h2_color-back {
+    background-color: $color-primary;
+    padding: 30px 40px 30px 18px;
+    @media screen and (max-width: 768px) {
+        padding: 15px 23px 19px 27px;
+    }
+    @media screen and (max-width: 320px) {
+        padding: 2px 15px 5px 10px;
+    }
+}
+
+.video__player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.player {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.player video {
+    display: block;
+    width: 100%;
+}
+
+.player .button-play {
+    position: absolute;
+    top: 210px;
+    left: 445px;
+    background-color: transparent;
+    border: none;
+    @media screen and (max-width: 768px) {
+        top: 160px;
+        left: 336px;
+    }
+    @media screen and (max-width: 320px) {
+        top: 73px;
+        left: 143px;
+    }
+}
+
+.icon1 {
+    display: flex;
+    cursor: pointer;
+    @media screen and (max-width: 768px){
+        width: 40px;
+        height: 40px;
+    }
+    @media screen and (max-width: 320px){
+        width: 10px;
+        height: 10px;
+    }
+}
+
+.player__controls {
+    position: absolute;
+    bottom: -39px;
+    width: 100%;
+    height: 40px;
+    padding: 10px 10px 10px 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.player__controls .controls {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.player__controls .controls button {
+    margin: 0px 10px;
+    padding: 0px;
+    border: 0px;
+    background-color: transparent;
+}
+
+.player__controls .controls input[type=range] {
+    height: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.player__controls .controls .progress {
+    background: linear-gradient(to right, $color-primary 0%, $color-primary 0%, $color-light 0%, $color-light 100%);
+    flex-basis: 70%;
+    margin: 0px;
+}
+
+.player__controls .controls .controls__time {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.player__controls .controls button {
+    margin: 0px 10px;
+    padding: 0px;
+    border: 0px;
+    background-color: transparent;
+}
+
+.player__controls .controls .volume {
+    background: linear-gradient(to right, $color-primary 0%, $color-primary 40%, $color-light 40%, $color-light 100%);
+}
+
+.player__controls .controls input[type=range] {
+    height: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0px;
+}
+
+.player__controls .controls .volume {
+    flex-basis: 20%;
+}
+
+.player__controls .controls button {
+    margin: 0px 10px;
+    padding: 0px;
+    border: 0px;
+    background-color: transparent;
+}
+
+.icon {
+    display: flex;
+    cursor: pointer;
+}
+
+.video{
+    background-color: $color-primary;
+}

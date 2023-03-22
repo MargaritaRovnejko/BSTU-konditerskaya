@@ -1,0 +1,38 @@
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+nav{
+    @media screen and (max-width: 320px) {
+       display: none;
+    }
+}
+
+.navigation__item
+{
+    padding-right: 30px;
+    font-size: 16px;
+    line-height: 20px;
+    list-style-type: none;
+    align-items: center;
+    @media screen and (max-width: 768px) {
+    padding-right: 25px;
+      }
+    .navigation__link
+    {
+        text-decoration: none;
+        color: $color-light;
+        &:hover{
+            color: $color-secondary;
+        }
+        &:active{
+            color: $color-primary;
+        }
+    }
+}
+
