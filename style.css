@@ -1088,6 +1088,10 @@ form textarea {
   padding: 0px;
   margin: 10px 0px 0px 0px;
 }
+._button:hover {
+  color: #E5E5DA;
+  background: linear-gradient(95.39deg, #2A1811 15.82%, #66544D 85.92%);
+}
 @media screen and (max-width: 768px) {
   ._button {
     width: 14.5rem;
@@ -1096,6 +1100,10 @@ form textarea {
     line-height: 0.5rem;
     margin-top: 0px;
     margin: 10px 0px 0px 0px;
+  }
+  ._button:hover {
+    color: #E5E5DA;
+    background: linear-gradient(95.39deg, #2A1811 15.82%, #66544D 85.92%);
   }
 }
 @media screen and (max-width: 320px) {
@@ -1106,6 +1114,10 @@ form textarea {
     line-height: 2rem;
     text-align: center;
     margin: 7px 0px 0px 0px;
+  }
+  ._button:hover {
+    color: #E5E5DA;
+    background: linear-gradient(95.39deg, #2A1811 15.82%, #66544D 85.92%);
   }
 }
 
@@ -1296,6 +1308,10 @@ a {
   padding: 0px;
   margin: 7px 0px 0px 0px;
 }
+.button:hover {
+  color: #E5E5DA;
+  background: linear-gradient(95.39deg, #2A1811 15.82%, #66544D 85.92%);
+}
 @media screen and (max-width: 768px) {
   .button {
     width: 14.5rem;
@@ -1304,6 +1320,10 @@ a {
     line-height: 0.5rem;
     margin-top: 0px;
     margin-left: 15px;
+  }
+  .button:hover {
+    color: #E5E5DA;
+    background: linear-gradient(95.39deg, #2A1811 15.82%, #66544D 85.92%);
   }
 }
 @media screen and (max-width: 320px) {
@@ -1314,6 +1334,10 @@ a {
     line-height: 0.5rem;
     margin-top: 0px;
     margin-left: -2px;
+  }
+  .button:hover {
+    color: #E5E5DA;
+    background: linear-gradient(95.39deg, #2A1811 15.82%, #66544D 85.92%);
   }
 }
 
@@ -1363,6 +1387,10 @@ a {
   padding: 0px;
   margin: 10px 0px 0px 0px;
 }
+._button:hover {
+  color: #E5E5DA;
+  background: linear-gradient(95.39deg, #2A1811 15.82%, #66544D 85.92%);
+}
 @media screen and (max-width: 768px) {
   ._button {
     width: 14.5rem;
@@ -1371,6 +1399,10 @@ a {
     line-height: 0.5rem;
     margin-top: 0px;
     margin: 10px 0px 0px 0px;
+  }
+  ._button:hover {
+    color: #E5E5DA;
+    background: linear-gradient(95.39deg, #2A1811 15.82%, #66544D 85.92%);
   }
 }
 @media screen and (max-width: 320px) {
@@ -1381,6 +1413,10 @@ a {
     line-height: 2rem;
     text-align: center;
     margin: 7px 0px 0px 0px;
+  }
+  ._button:hover {
+    color: #E5E5DA;
+    background: linear-gradient(95.39deg, #2A1811 15.82%, #66544D 85.92%);
   }
 }
 
