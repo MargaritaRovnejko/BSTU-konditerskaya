@@ -51,14 +51,14 @@
     }
 }
 
-.price__container .layout-colomn {
+.price__container .layout-column {
     gap: 25px;
     @media screen and (max-width: 320px) {
         gap: 15px;
     }
 }
 
-.layout-colomn {
+.layout-column {
     display: flex;
     width: 100%;
     flex-wrap: wrap;

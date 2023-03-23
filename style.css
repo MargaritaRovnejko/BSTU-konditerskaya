@@ -356,7 +356,7 @@ section {
   }
 }
 
-.layout-colomn {
+.layout-column {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
@@ -364,12 +364,12 @@ section {
   gap: 80px;
 }
 @media screen and (max-width: 768px) {
-  .layout-colomn {
+  .layout-column {
     gap: 50px;
   }
 }
 @media screen and (max-width: 320px) {
-  .layout-colomn {
+  .layout-column {
     gap: 34px;
   }
 }
@@ -853,16 +853,16 @@ section {
   }
 }
 
-.price__container .layout-colomn {
+.price__container .layout-column {
   gap: 25px;
 }
 @media screen and (max-width: 320px) {
-  .price__container .layout-colomn {
+  .price__container .layout-column {
     gap: 15px;
   }
 }
 
-.layout-colomn {
+.layout-column {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
