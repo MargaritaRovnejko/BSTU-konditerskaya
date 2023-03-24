@@ -68,6 +68,10 @@
 }
 
 .footer__tab {
+    &:hover{
+        transition: 0.3s;
+        transform: scale(1.5);
+    }
     margin-right: 20px;
 }
 
@@ -85,7 +89,16 @@ a {
     }
 }
 
+.text-footer_email-phone{
+    &:hover{
+        color: $color-light;
+    }
+}
+
 .text-footer_location {
+    &:hover{
+        color: $color-light;
+    }
     font-size: 20px;
     margin-left: -4px;
     margin-top: -9px;
@@ -102,6 +115,10 @@ a {
 }
 
 .social {
+    .icon:hover{
+        transition: 0.3s;
+        transform: scale(1.5);
+    }
     list-style: none;
     display: flex;
     gap: 25px;

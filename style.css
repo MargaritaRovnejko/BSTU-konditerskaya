@@ -1215,6 +1215,10 @@ form textarea {
 .footer__tab {
   margin-right: 20px;
 }
+.footer__tab:hover {
+  transition: 0.3s;
+  transform: scale(1.5);
+}
 
 a {
   color: inherit;
@@ -1231,10 +1235,17 @@ a {
   }
 }
 
+.text-footer_email-phone:hover {
+  color: #E5E5DA;
+}
+
 .text-footer_location {
   font-size: 20px;
   margin-left: -4px;
   margin-top: -9px;
+}
+.text-footer_location:hover {
+  color: #E5E5DA;
 }
 @media screen and (max-width: 768px) {
   .text-footer_location {
@@ -1258,6 +1269,10 @@ a {
   padding: 0px;
   margin: 0px;
   height: 35px;
+}
+.social .icon:hover {
+  transition: 0.3s;
+  transform: scale(1.5);
 }
 @media screen and (max-width: 768px) {
   .social {
