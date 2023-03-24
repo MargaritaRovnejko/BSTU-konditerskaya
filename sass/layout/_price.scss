@@ -95,6 +95,10 @@
 }
 
 .button3 {
+    &:hover{
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
     width: 189.75px;
     height: 55px;
     cursor: pointer;

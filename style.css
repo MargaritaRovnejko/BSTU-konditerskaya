@@ -912,6 +912,10 @@ section {
   background: none;
   margin: 24px 0px 0px 0px;
 }
+.button3:hover {
+  transition: 0.5s;
+  transform: scale(1.2);
+}
 
 .price {
   background-color: #2A1811;
@@ -1383,6 +1387,25 @@ a {
     text-align: center;
     border: 1px solid #DAB8A3;
   }
+}
+
+.button3 {
+  width: 189.75px;
+  height: 55px;
+  cursor: pointer;
+  font-size: 2.2rem;
+  line-height: 4rem;
+  font-weight: 400;
+  font-style: normal;
+  color: #DAB8A3;
+  font-family: Merriweather, Times, serif;
+  border: 2px solid #DAB8A3;
+  background: none;
+  margin: 24px 0px 0px 0px;
+}
+.button3:hover {
+  transition: 0.5s;
+  transform: scale(1.2);
 }
 
 ._button {
