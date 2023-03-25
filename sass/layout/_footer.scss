@@ -12,6 +12,7 @@
       }
 }
 
+
 .container {
     max-width: 1024px;
     margin: auto;
@@ -115,9 +116,15 @@ a {
 }
 
 .social {
-    .icon:hover{
-        transition: 0.3s;
-        transform: scale(1.5);
+    .icon {
+        width: 35px;
+        height: 35px;
+        display: flex;
+        cursor: pointer;
+        &:hover{
+            transition: 0.3s;
+            transform: scale(1.5);
+        }
     }
     list-style: none;
     display: flex;
@@ -145,6 +152,7 @@ a {
         padding-top: 1px;
     }
 }
+
 
 .footer{
     background-color: $color-primary;

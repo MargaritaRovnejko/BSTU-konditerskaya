@@ -664,18 +664,30 @@ section {
   position: relative;
   overflow: hidden;
 }
-
-.player video {
-  display: block;
-  width: 100%;
-}
-
 .player .button-play {
   position: absolute;
   top: 210px;
   left: 445px;
   background-color: transparent;
   border: none;
+}
+.player .button-play img {
+  display: flex;
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+}
+@media screen and (max-width: 768px) {
+  .player .button-play img {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .player .button-play img {
+    width: 10px;
+    height: 10px;
+  }
 }
 @media screen and (max-width: 768px) {
   .player .button-play {
@@ -690,23 +702,9 @@ section {
   }
 }
 
-.icon1 {
-  display: flex;
-  cursor: pointer;
-  width: 70px;
-  height: 70px;
-}
-@media screen and (max-width: 768px) {
-  .icon1 {
-    width: 40px;
-    height: 40px;
-  }
-}
-@media screen and (max-width: 320px) {
-  .icon1 {
-    width: 10px;
-    height: 10px;
-  }
+.player video {
+  display: block;
+  width: 100%;
 }
 
 .player__controls {
@@ -717,73 +715,36 @@ section {
   padding: 10px 10px 10px 0px;
   background-color: rgba(0, 0, 0, 0.5);
 }
-
 .player__controls .controls {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-
 .player__controls .controls button {
   margin: 0px 10px;
   padding: 0px;
   border: 0px;
   background-color: transparent;
 }
-
 .player__controls .controls input[type=range] {
   height: 10px;
   border-radius: 5px;
   cursor: pointer;
 }
-
 .player__controls .controls .progress {
   background: linear-gradient(to right, #2A1811 0%, #2A1811 0%, #E5E5DA 0%, #E5E5DA 100%);
   flex-basis: 70%;
   margin: 0px;
 }
-
 .player__controls .controls .controls__time {
   display: flex;
   justify-content: space-around;
   margin-left: 5px;
   margin-right: 5px;
 }
-
-.player__controls .controls button {
-  margin: 0px 10px;
-  padding: 0px;
-  border: 0px;
-  background-color: transparent;
-}
-
 .player__controls .controls .volume {
   background: linear-gradient(to right, #2A1811 0%, #2A1811 40%, #E5E5DA 40%, #E5E5DA 100%);
-}
-
-.player__controls .controls input[type=range] {
-  height: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-  margin: 0px;
-}
-
-.player__controls .controls .volume {
   flex-basis: 20%;
-}
-
-.player__controls .controls button {
-  margin: 0px 10px;
-  padding: 0px;
-  border: 0px;
-  background-color: transparent;
-}
-
-.icon {
-  width: 35;
-  height: 35;
-  display: flex;
-  cursor: pointer;
 }
 
 .video {
@@ -1277,6 +1238,12 @@ a {
   padding: 0px;
   margin: 0px;
   height: 35px;
+}
+.social .icon {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  cursor: pointer;
 }
 .social .icon:hover {
   transition: 0.3s;
