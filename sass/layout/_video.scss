@@ -89,6 +89,8 @@
 .icon1 {
     display: flex;
     cursor: pointer;
+    width: 70px;
+    height: 70px;
     @media screen and (max-width: 768px){
         width: 40px;
         height: 40px;
@@ -170,6 +172,8 @@
 }
 
 .icon {
+    width: 35;
+    height: 35;
     display: flex;
     cursor: pointer;
 }
