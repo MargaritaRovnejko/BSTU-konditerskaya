@@ -192,7 +192,7 @@ nav .menu__box {
     padding-right: 122px;
     background-color: #2A1811;
     box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.5);
-    transition-duration: 3s;
+    transition-duration: 1s;
     z-index: 5;
   }
 }
@@ -1487,7 +1487,7 @@ a {
   width: 100%;
   height: 1px;
   background-color: #E5E5DA;
-  transition-duration: 1.25s;
+  transition-duration: 0.25s;
 }
 
 .menu-btn > span::before {
