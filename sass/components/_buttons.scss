@@ -1,0 +1,211 @@
+.button {
+  &:hover{
+    color: $color-light;
+    background: linear-gradient(95.39deg, $color-primary 15.82%, $color-second-dark 85.92%);;
+  }
+    width: 19rem;
+    height: 5rem;
+    cursor: pointer;
+    font-size: 2.2rem;
+    line-height: 5rem;
+    font-weight: 900;
+    font-style: italic;
+    font-family: Merriweather, Times, serif;
+    color: $color-primary;
+    background: linear-gradient(96.47deg, $color-first 18.18%, $color-second 84.56%);
+    border-radius: 80px 0px;
+    border: none;
+    filter: drop-shadow(7px 7px 4px $color-shadow);
+    padding: 0px;
+    margin: 7px 0px 0px 0px;
+
+    @media screen and (max-width: 768px) {
+      &:hover{
+        color: $color-light;
+        background: linear-gradient(95.39deg, $color-primary 15.82%, $color-second-dark 85.92%);;
+      }
+      width: 14.5rem;
+      height: 4rem;
+      font-size: 1.6rem;
+      line-height: 0.5rem;
+      margin-top: 0px;
+      margin-left: 15px;
+    }
+    @media screen and (max-width: 320px) {
+      &:hover{
+        color: $color-light;
+        background: linear-gradient(95.39deg, $color-primary 15.82%, $color-second-dark 85.92%);;
+      }
+      width: 8rem;
+      height: 2rem;
+      font-size: 1rem;
+      line-height: 0.5rem;
+      margin-top: 0px;
+      margin-left: -2px;
+    }
+  }
+
+.button2 {
+  width: 189.75px;
+  height: 55px;
+  cursor: pointer;
+  font-size: 2.2rem;
+  line-height: 4rem;
+  font-weight: 400;
+  font-style: normal;
+  color: $color-secondary;
+  font-family: Merriweather, Times, serif;
+  border: 2px solid $color-secondary;
+  background: none;
+  @media screen and (max-width: 768px) {
+    font-size: 2.0rem;
+  }
+  @media screen and (max-width: 320px) {
+    width: 220px;
+    height: 30px;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-align: center;
+    border: 1px solid $color-secondary;
+  }
+}
+
+.button3 {
+  &:hover{
+      transition: 0.5s;
+      transform: scale(1.2);
+  }
+  width: 189.75px;
+  height: 55px;
+  cursor: pointer;
+  font-size: 2.2rem;
+  line-height: 4rem;
+  font-weight: 400;
+  font-style: normal;
+  color: $color-secondary;
+  font-family: Merriweather, Times, serif;
+  border: 2px solid $color-secondary;
+  background: none;
+  margin: 24px 0px 0px 0px;
+}
+
+._button {
+  &:hover{
+    color: $color-light;
+    background: linear-gradient(95.39deg, $color-primary 15.82%, $color-second-dark 85.92%);;
+  }
+  width: 19rem;
+  height: 5rem;
+  cursor: pointer;
+  font-size: 2.2rem;
+  line-height: 5rem;
+  font-weight: 900;
+  font-style: italic;
+  font-family: Merriweather, Times, serif;
+  color: $color-primary;
+  background: linear-gradient(96.47deg, $color-first 18.18%, $color-second 84.56%);
+  border-radius: 80px 0px;
+  border: none;
+  filter: drop-shadow(7px 7px 4px $color-shadow);
+  padding: 0px;
+  margin: 10px 0px 0px 0px;
+  @media screen and (max-width: 768px) {
+    &:hover{
+      color: $color-light;
+      background: linear-gradient(95.39deg, $color-primary 15.82%, $color-second-dark 85.92%);;
+    }
+    width: 14.5rem;
+    height: 4rem;
+    font-size: 1.6rem;
+    line-height: 0.5rem;
+    margin-top: 0px;
+    margin: 10px 0px 0px 0px;
+  }
+  @media screen and (max-width: 320px) {
+    &:hover{
+      color: $color-light;
+      background: linear-gradient(95.39deg, $color-primary 15.82%, $color-second-dark 85.92%);;
+    }
+    width: 80px;
+    height: 20px;
+    font-size: 1.0rem;
+    line-height: 2rem;
+    text-align: center;
+    margin: 7px 0px 0px 0px;
+  }
+}
+
+.button_colored{
+  font-weight: 900;
+  color: $color-primary;
+  background: $color-secondary;
+}
+
+.menu-btn{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right:0;
+  width: 15px;
+  height: 7px;
+  cursor: pointer;
+  z-index: 6;
+  @media screen and (max-width: 767.5px){
+    margin-top: 0px;
+    margin-right: 20px;
+  }
+  @media screen and (max-width: 320px){
+    margin-top: 7px;
+    margin-right: 3px;
+  }
+}
+ 
+.menu-btn > span,
+.menu-btn > span::before,
+.menu-btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: $color-light;
+  transition-duration: .25s;
+}
+
+.menu-btn > span::before {
+  content: '';
+  top: -4px;
+}
+
+.menu-btn > span::after {
+  content: '';
+  top: 4px;
+}
+
+#menu-toggle{
+  opacity: 0;
+}
+ 
+#menu-toggle:checked ~ .menu-btn > span{
+  transform: rotate(45deg);
+}
+
+#menu-toggle:checked ~ .menu-btn > span::before{
+  top: 0;
+  transform: rotate(0);
+}
+
+#menu-toggle:checked ~ .menu-btn > span::after{
+  top: 0;
+  transform: rotate(90deg);
+}
+
+#menu-toggle:checked ~ .menu__box {
+  visibility: visible;
+  right: 0px;
+}
+
+.menu__item:hover {
+  color: $color-secondary;
+}
+

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,900;1,400;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Konditerskaya</title>
+    <link rel="icon" href="./assets/svg/Cake_logo3.svg">
+</head>
+<body>
+    <div class ="wrapper">
+        <div class ="picture">
+            <header class="header">
+                <div class="header__wrapper">
+                    <div class="header__logo">
+                        <a href="#"><img src="./assets/svg/Cake_logo.svg" alt="logo"></a>
+                    </div>
+
+                    <nav class="menu">
+            
+                        <input id="menu-toggle" type="checkbox">
+                        <label class="menu-btn" for="menu-toggle">
+                        <span></span>
+                        </label>
+
+                        <ul class="menu__box">
+                            <li><a class="menu__item" href="#skills">Skills</a></li>
+                            <li><a class="menu__item" href="#portfolio">Portfolio</a></li>
+                            <li><a class="menu__item" href="#video">Video</a></li>
+                            <li><a class="menu__item" href="#price">Price</a></li>
+                            <li><a class="menu__item" href="#calculation">Calculation</a></li>
+                            <li><a class="menu__item" href="#contacts">Contacts</a></li>
+                        </ul>
+                    </nav>                
+                </div>
+            </header>   
+            
+            <section class="hero">
+                <div class="container hero__container">
+                    <div class="hero__content">
+                        <h1 class="hero-title">Alise Sweet</h1>
+                        <p class="hero-text">A piece of sweet bliss for every taste from a professional confectionery designer</p>
+                        <button class="button" data-i18n="want">Want a cake</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <main>
+            <section class="skills" id="skills">  
+                <div class="container skills__container">
+                    <div class="heading__line">
+                        <h2 class="h2_color-back" data-i18n="skills">Skills</h2>
+                    </div>
+                    <div class="layout-column">
+                        <div class="skillbox">
+                            <div class="skill">
+                                <img src="./assets/svg/Skill_1.svg" alt="milk">
+                                <h3 data-i18n="skill-title-1">Select adequate ingredients</h3>
+                                <p data-i18n="skill-text-1">Choose appropriate ingredients based in their technological function to execute ideas</p>
+                            </div>
+                            <div class="skill">
+                                <img src="./assets/svg/Skill_2.svg" alt="book">
+                                <h3 data-i18n="skill-title-2">Create new recipes</h3>
+                                <p data-i18n="skill-text-2">Combine innovative and creative ideas to come up with ingenious recipes and innovative preparations</p>
+                            </div>
+                        </div>
+                        <div class="skillbox">
+                            <div class="skill">
+                                <img src="./assets/svg/Skill_3.svg" alt="hand">
+                                <h3 data-i18n="skill-title-3">Follow hygienic procedures</h3>
+                                <p data-i18n="skill-text-3">Ensure a clean working space according to hygienic standards in the food processing industry</p>
+                            </div>
+                            <div class="skill">
+                                <img src="./assets/svg/Skill_4.svg" alt="cake">
+                                <h3 data-i18n="skill-title-4">Individual design</h3>
+                                <p data-i18n="skill-text-4">Find an individual approach to each customer for maximum satisfaction of his needs and anything the one wishes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="portfolio" id="portfolio">
+                <div class="container portfolio__container">
+                    <div class="heading__line">
+                        <h2 class="h2_color-back" data-i18n="portfolio">Portfolio</h2>
+                    </div>
+                    <div class="portfolio__buttons">
+                        <div class="buttonbox">
+                            <button class="button2 button_colored" data-photos="Cakes">Cakes</button>
+                            <button class="button2" data-photos="Minicakes">Minicakes</button>
+                        </div>
+                        <div class="buttonbox">
+                            <button class="button2" data-photos="Cupcakes">Cupcakes</button>
+                            <button class="button2" data-photos="Doughnuts">Doughnuts</button>
+                        </div>
+                    </div>
+                    <div class="portfolio__image">
+                        <img src="./assets/png/Cakes/Cake_1.png" alt="image 1">
+                        <img src="./assets/png/Cakes/Cake_2.png" alt="image 2" class="primary">
+                        <img src="./assets/png/Cakes/Cake_3.png" alt="image 3" class="primary">
+                        <img src="./assets/png/Cakes/Cake_4.png" alt="image 4" class="primary">
+
+                        <img src="./assets/png/Cakes/Cake_5.png" alt="image 5" class="additional">
+                        <img src="./assets/png/Cakes/Cake_6.png" alt="image 6" class="additional">
+                    </div>
+                </div>
+            </section>
+            <section class="video" id="video">
+                <div class="container video__container">
+                    <div class="heading__line">
+                        <h2 class="h2_color-back" data-i18n="video">Video</h2>
+                    </div>
+                    <div class="video__player">
+                        <div class="player">
+                            <video class="screen" src="./assets/video/video.mp4" poster="./assets/jpg/Video.jpg"></video>
+                            <button class="button-play">
+                                <img src ="./assets/svg/Player.svg" alt="player">
+                            </button>
+                            <div class="player__controls">
+                                <div class="controls">
+                                    <button class="controls__play">
+                                        <img src ="./assets/svg/play-pause.svg" alt="play-pause">
+                                    </button>
+                                    <input type="range" value="0" min="0" max="100" step="0.01" class="progress">
+                                    <div class="controls__time">
+                                        <span class="time__current">00:00</span>
+                                        <span>/</span>
+                                        <span class="time__all">00:00</span>
+                                    </div>
+                                    <button class="controls__volume">
+                                        <img src ="./assets/svg/volume-mute.svg" alt="volume-mute">
+                                    </button>
+                                    <input type="range" value="40" min="0" max="100" step="1" class="volume">
+                                    <button class="controls__fullscreen">
+                                            <img src ="./assets/svg/fullscreen.svg" alt="fullscreen">
+                                    </button>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="price" id="price">
+                <div class="container price__container">
+                    <div class="heading__line">
+                        <h2 class="h2_color-back" data-i18n="price">Price</h2>
+                    </div>
+                    <div class="layout-column">
+                        <div class="plan">
+                            <h4 data-i18n="">Yammy</h4>
+                            <span>10 $</span>
+                            <p data-i18n="price-description-1-p-1">3 cakes</p>
+                            <p data-i18n="price-description-1-p-2">20 minicakes</p>
+                            <p data-i18n="price-description-1-p-3">30 cupcakes</p>
+                            <p data-i18n="price-description-1-p-4">Readiness 7 weeks</p>
+                            <p data-i18n="price-description-1-p-5">Individual design</p>
+                            <button class="button3 button_colored" data-i18n="order">Want</button>
+                        </div>
+                        <div class="plan">
+                            <h4 data-i18n="">Tasty</h4>
+                            <span>30 $</span>
+                            <p data-i18n="price-description-2-p-1">5 cakes</p>
+                            <p data-i18n="price-description-2-p-2">30 minicakes</p>
+                            <p data-i18n="price-description-2-p-3">50 doughnuts</p>
+                            <p data-i18n="price-description-2-p-4">Readiness 5 days</p>
+                            <p data-i18n="price-description-2-p-5">Individual design</p>
+                            <button class="button3 button_colored" data-i18n="order">Want</button>
+                        </div>
+                        <div class="plan">
+                            <h4 data-i18n="">Appetizing</h4>
+                            <span>50 $</span>
+                            <p data-i18n="price-description-3-p-1">7 cakes</p>
+                            <p data-i18n="price-description-3-p-2">50 cupcakes</p>
+                            <p data-i18n="price-description-3-p-3">70 doughnuts</p>
+                            <p data-i18n="price-description-3-p-4">Readiness 3 days</p>
+                            <p data-i18n="price-description-3-p-5">Individual design</p>
+                            <button class="button3 button_colored" data-i18n="order">Want</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contacts" id="contacts">
+                <div class="container contacts__container">
+                    <div class="contacts__form">
+                        <h2 data-i18n="contact-me">Contact me</h2>
+                        <form class="form" action="#" method="post">
+                            <input type="email" name="email" id="email" placeholder="E-mail" class="theme-night" data-i18n="e-mail">
+                            <input type="tel" name="tel" id="tel" placeholder="Phone" class="theme-night" data-i18n="phone">
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" data-i18n="message"></textarea>
+                            <button class="_button" type="submit" data-i18n="send-message">Send message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer" id="footer">
+            <div class="footer__body container">
+                <div class="footer__item item1 ">
+                    <div class="footer__text-body text-footer text-footer_email-phone">
+                        <a href="mailto:alicesweet@gmail.com" class="footer__tab"><img src="./assets/svg/Mail.svg" alt="email"></a>
+                        <a href="mailto:alicesweet@gmail.com" class="footer__link">alicesweet@gmail.com</a>
+                    </div>
+                    <div class="text-footer text-footer_email-phone">
+                        <a href="tel:+150109361287" class="footer__tab"><img src="./assets/svg/Phone.svg" alt="phone"></a>
+                        <a href="tel:+150109361287" class="footer__link phone">+15 010 936 12 87</a>
+                    </div>
+                </div>
+                <div class="footer__item item2">
+                    <div class="footer__text-body text-footer text-footer_location">
+                        <a href="https://www.google.by/maps/place/10+Green+St,+Woodbridge,+NJ+07095,+%D0%A1%D0%A8%D0%90/@40.5579441,-74.2790672,17z/data=!3m1!4b1!4m6!3m5!1s0x89c3b5165450bcdd:0x34ab1580db270340!8m2!3d40.5579441!4d-74.2768785!16s%2Fg%2F11nnqwlkkv" target="_blank" class="footer__tab"><img src="./assets/svg/Address.svg" alt="marker"></a>
+                        <a href="https://www.google.by/maps/place/10+Green+St,+Woodbridge,+NJ+07095,+%D0%A1%D0%A8%D0%90/@40.5579441,-74.2790672,17z/data=!3m1!4b1!4m6!3m5!1s0x89c3b5165450bcdd:0x34ab1580db270340!8m2!3d40.5579441!4d-74.2768785!16s%2Fg%2F11nnqwlkkv" target="_blank" >1 Central Street, York (entrance from street)</a>
+                    </div>
+                    <div class="footer_social">
+                        <ul class="social">
+                            <li>
+                                <a href="#">
+                                    <div class="icon">
+                                        <img src ="./assets/svg/Instagram.svg" alt="Instagram">
+                                    </div>
+                                </a>
+                            <li>
+                                <a href="#">
+                                    <div class="icon">
+                                        <img src ="./assets/svg/Twitter.svg" alt="Twitter">
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="icon">
+                                        <img src ="./assets/svg/Linkedin.svg" alt="Linkedin">
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/MargaritaRovnejko/BSTU-konditerskaya" target="_blank">
+                                    <div class="icon">
+                                        <img src ="./assets/svg/Github.svg" alt="Github">
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.figma.com/file/vs0ZoHThVhpwecE0QR3yUV/%D0%9A%D0%BE%D0%BD%D0%B4%D0%B8%D1%82%D0%B5%D1%80%D1%81%D0%BA%D0%B0%D1%8F?node-id=55301-2&t=aeZEN50JUlRRSycg-0" target="_blank">
+                                    <div class="icon">
+                                        <img src ="./assets/svg/Figma.svg" alt="Figma">
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__item item3">
+                        <h5>Ровнейко Маргарита Александровна, ЭМ-3</h5>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
