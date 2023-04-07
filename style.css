@@ -1386,18 +1386,24 @@ a {
   }
 }
 
+.button_colored {
+  font-weight: 900;
+  color: #2A1811;
+  background: #DAB8A3;
+}
+
 .button3 {
   width: 189.75px;
   height: 55px;
   cursor: pointer;
   font-size: 2.2rem;
   line-height: 4rem;
-  font-weight: 400;
+  font-weight: 900;
   font-style: normal;
-  color: #DAB8A3;
+  color: #2A1811;
   font-family: Merriweather, Times, serif;
   border: 2px solid #DAB8A3;
-  background: none;
+  background-color: #DAB8A3;
   margin: 24px 0px 0px 0px;
 }
 .button3:hover {
@@ -1453,12 +1459,6 @@ a {
     color: #E5E5DA;
     background: linear-gradient(95.39deg, #2A1811 15.82%, #66544D 85.92%);
   }
-}
-
-.button_colored {
-  font-weight: 900;
-  color: #2A1811;
-  background: #DAB8A3;
 }
 
 .menu-btn {
