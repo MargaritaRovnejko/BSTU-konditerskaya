@@ -6,7 +6,12 @@ const photos = {
     'assets/png/Cakes/4.png',
     'assets/png/Cakes/5.png',
     'assets/png/Cakes/6.png',
-    'assets/png/Cakes/7.png'
+    'assets/png/Cakes/7.png',
+    'assets/png/Cakes/8.png',
+    'assets/png/Cakes/9.png',
+    'assets/png/Cakes/10.png',
+    'assets/png/Cakes/11.png',
+    'assets/png/Cakes/12.png'
   ],
   Minicakes: [
     'assets/png/Minicakes/1.png',
@@ -15,7 +20,12 @@ const photos = {
     'assets/png/Minicakes/4.png',
     'assets/png/Minicakes/5.png',
     'assets/png/Minicakes/6.png',
-    'assets/png/Minicakes/7.png'
+    'assets/png/Minicakes/7.png',
+    'assets/png/Minicakes/8.png',
+    'assets/png/Minicakes/9.png',
+    'assets/png/Minicakes/10.png',
+    'assets/png/Minicakes/11.png',
+    'assets/png/Minicakes/12.png'
   ],
   Cupcakes: [
     'assets/png/Cupcakes/1.png',
@@ -24,7 +34,12 @@ const photos = {
     'assets/png/Cupcakes/4.png',
     'assets/png/Cupcakes/5.png',
     'assets/png/Cupcakes/6.png',
-    'assets/png/Cupcakes/7.png'
+    'assets/png/Cupcakes/7.png',
+    'assets/png/Cupcakes/8.png',
+    'assets/png/Cupcakes/9.png',
+    'assets/png/Cupcakes/10.png',
+    'assets/png/Cupcakes/11.png',
+    'assets/png/Cupcakes/12.png'
   ],
   Doughnuts: [
     'assets/png/Doughnuts/1.png',
@@ -33,7 +48,12 @@ const photos = {
     'assets/png/Doughnuts/4.png',
     'assets/png/Doughnuts/5.png',
     'assets/png/Doughnuts/6.png',
-    'assets/png/Doughnuts/7.png'
+    'assets/png/Doughnuts/7.png',
+    'assets/png/Doughnuts/8.png',
+    'assets/png/Doughnuts/9.png',
+    'assets/png/Doughnuts/10.png',
+    'assets/png/Doughnuts/11.png',
+    'assets/png/Doughnuts/12.png'
   ],
 }
 
