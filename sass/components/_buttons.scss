@@ -70,6 +70,12 @@
   }
 }
 
+.button_colored{
+  font-weight: 900;
+  color: $color-primary;
+  background: $color-secondary;
+}
+
 .button3 {
   &:hover{
       transition: 0.5s;
@@ -80,12 +86,12 @@
   cursor: pointer;
   font-size: 2.2rem;
   line-height: 4rem;
-  font-weight: 400;
+  font-weight: 900;
   font-style: normal;
-  color: $color-secondary;
+  color: $color-primary;
   font-family: Merriweather, Times, serif;
   border: 2px solid $color-secondary;
-  background: none;
+  background-color: $color-secondary;
   margin: 24px 0px 0px 0px;
 }
 
@@ -133,12 +139,6 @@
     text-align: center;
     margin: 7px 0px 0px 0px;
   }
-}
-
-.button_colored{
-  font-weight: 900;
-  color: $color-primary;
-  background: $color-secondary;
 }
 
 .menu-btn{
