@@ -1574,7 +1574,7 @@ a {
 @media screen and (max-width: 320px) {
   .form__input {
     margin: 30px 36px 40px 432px;
-    padding: 10px 0px 11px 17px;
+    padding: 8px 0px 11px 18px;
   }
 }
 
