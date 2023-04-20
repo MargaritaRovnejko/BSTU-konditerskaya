@@ -1582,7 +1582,7 @@ a {
   background-color: #2A1811;
 }
 
-.button, .calc__button {
+.button, .calculation__button {
   width: 19rem;
   height: 5rem;
   cursor: pointer;
@@ -1599,12 +1599,12 @@ a {
   padding: 0px;
   margin: 7px 0px 0px 0px;
 }
-.button:hover, .calc__button:hover {
+.button:hover, .calculation__button:hover {
   color: #E5E5DA;
   background: linear-gradient(95.39deg, #2A1811 15.82%, #66544D 85.92%);
 }
 @media screen and (max-width: 768px) {
-  .button, .calc__button {
+  .button, .calculation__button {
     width: 14.5rem;
     height: 4rem;
     font-size: 1.6rem;
@@ -1612,13 +1612,13 @@ a {
     margin-top: 0px;
     margin-left: 15px;
   }
-  .button:hover, .calc__button:hover {
+  .button:hover, .calculation__button:hover {
     color: #E5E5DA;
     background: linear-gradient(95.39deg, #2A1811 15.82%, #66544D 85.92%);
   }
 }
 @media screen and (max-width: 320px) {
-  .button, .calc__button {
+  .button, .calculation__button {
     width: 8rem;
     height: 2rem;
     font-size: 1rem;
@@ -1626,22 +1626,22 @@ a {
     margin-top: 0px;
     margin-left: -2px;
   }
-  .button:hover, .calc__button:hover {
+  .button:hover, .calculation__button:hover {
     color: #E5E5DA;
     background: linear-gradient(95.39deg, #2A1811 15.82%, #66544D 85.92%);
   }
 }
 
-.calc__button {
+.calculation__button {
   margin: 0px 0px 0px 416px;
 }
 @media screen and (max-width: 768px) {
-  .calc__button {
+  .calculation__button {
     margin: 0px 0px 0px 438px;
   }
 }
 @media screen and (max-width: 320px) {
-  .calc__button {
+  .calculation__button {
     margin: 0px 0px 0px 467px;
   }
 }

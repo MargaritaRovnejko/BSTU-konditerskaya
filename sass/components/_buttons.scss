@@ -1,4 +1,4 @@
-.button, .calc__button {
+.button, .calculation__button {
   &:hover{
     color: $color-light;
     background: linear-gradient(95.39deg, $color-primary 15.82%, $color-second-dark 85.92%);;
@@ -44,7 +44,7 @@
       margin-left: -2px;
     }
   }
-.calc__button{
+.calculation__button{
   margin: 0px 0px 0px 416px;
   @media screen and (max-width: 768px) {
     margin: 0px 0px 0px 438px;
