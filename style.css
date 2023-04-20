@@ -144,7 +144,7 @@ h6 {
   }
 }
 
-h7 {
+em {
   font-family: "Merriweather";
   font-style: italic;
   font-weight: 400;
@@ -155,12 +155,12 @@ h7 {
   color: #E5E5DA;
 }
 @media screen and (max-width: 768px) {
-  h7 {
+  em {
     font-size: 30px;
   }
 }
 @media screen and (max-width: 320px) {
-  h7 {
+  em {
     font-size: 16px;
   }
 }
