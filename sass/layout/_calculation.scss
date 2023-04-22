@@ -51,7 +51,7 @@
     background-image: url('assets/svg/Arrow.svg');
     background-repeat: no-repeat;
     background-position: 94% center;
-    margin: 17px 362px 37px 362px;
+    margin: 16px 80px 38px 80px;
     font-family: 'Merriweather';
     font-style: italic;
     background-color: $color-primary;
@@ -67,23 +67,23 @@
     box-sizing: border-box;
     padding: 9px 0px 11px 10px;
     @media screen and (max-width: 768px) {
-        margin: 14px 362px 37px 362px;
-        padding: 10px 0px 11px 17px;
+        margin: 14px 36px 37px 37px;
+        padding: 8px 0px 11px 17px;
     }
     @media screen and (max-width: 320px) {
-        margin: 30px 362px 50px 362px;
+        margin: 30px 3px 50px 3px;
         padding: 8px 0px 11px 16px;
     }
 }
 
 .total
 {
-    margin: 57px 386px 55px 386px;
+    margin: 55px 0px 55px 105px;
     @media screen and (max-width: 768px) {
-        margin: 59px 385px; 
+       margin: 67px 82px 51px; 
     }
     @media screen and (max-width: 320px) {
-        margin: 60px 445px 26px; 
+        margin: 45px 0px 26px 70px; 
     }
 }
 
@@ -102,19 +102,19 @@
     border: 1.5px solid;
     border-color: $color-light;
     box-sizing: border-box;
-    padding: 9px 0px 11px 10px;
-    margin: 13px 362px 37px 435px;
+    padding: 9px 5px 11px 10px;
+    margin: 12px 0px 32px 153px;
     width: 150px;
     height: 60px;
     
     @media screen and (max-width: 768px) {
-        margin: 14px 36px 24px 436px;
-        padding: 10px 0px 11px 17px;
+        margin: 14px 0px 24px 110px;
+        padding: 10px 5px 11px 17px;
     }
 
     @media screen and (max-width: 320px) {
-        margin: 30px 36px 40px 432px;
-        padding: 8px 0px 11px 18px;
+        margin: 30px 3px 40px 73px;
+        padding: 8px 5px 11px 18px;
     }
 }
 

@@ -1,4 +1,4 @@
-.button, .calculation__button {
+.button {
   &:hover{
     color: $color-light;
     background: linear-gradient(95.39deg, $color-primary 15.82%, $color-second-dark 85.92%);;
@@ -44,13 +44,60 @@
       margin-left: -2px;
     }
   }
-.calculation__button{
-  margin: 0px 0px 0px 416px;
+
+
+.calculation__button
+  {
+    &:hover{
+      color: $color-light;
+      background: linear-gradient(95.39deg, $color-primary 15.82%, $color-second-dark 85.92%);;
+    }
+      width: 19rem;
+      height: 5rem;
+      cursor: pointer;
+      font-size: 2.2rem;
+      line-height: 5rem;
+      font-weight: 900;
+      font-style: italic;
+      font-family: Merriweather, Times, serif;
+      color: $color-primary;
+      background: linear-gradient(96.47deg, $color-first 18.18%, $color-second 84.56%);
+      border-radius: 80px 0px;
+      border: none;
+      filter: drop-shadow(7px 7px 4px $color-shadow);
+      padding: 0px;
+      margin: 7px 0px 0px 0px;
+  
+      @media screen and (max-width: 768px) {
+        &:hover{
+          color: $color-light;
+          background: linear-gradient(95.39deg, $color-primary 15.82%, $color-second-dark 85.92%);;
+        }
+        width: 14.5rem;
+        height: 4rem;
+        font-size: 1.6rem;
+        line-height: 0.5rem;
+        margin-top: 0px;
+        margin-left: 15px;
+      }
+      @media screen and (max-width: 320px) {
+        &:hover{
+          color: $color-light;
+          background: linear-gradient(95.39deg, $color-primary 15.82%, $color-second-dark 85.92%);;
+        }
+        width: 12.5rem;
+        height: 3.5rem;
+        font-size: 1.6rem;
+        line-height: 0.5rem;
+        margin-top: 0px;
+        margin-left: 15px;
+      }
+  margin: 7px 0px 0px 133px;
   @media screen and (max-width: 768px) {
-    margin: 0px 0px 0px 438px;
+    margin: 0px 0px 0px 113px;
   }
   @media screen and (max-width: 320px) {
-  margin: 0px 0px 0px 467px;
+  margin: 0px 0px 0px 90px;
   }
 }
 
