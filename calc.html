@@ -50,17 +50,17 @@
                             <h6 class ="form__text">What would you like?</h6>
                             <select id="selectProduct" class = "form__select">
                                 <option value="0" selected disabled>choose...</option>
-                                <option value="1000">Cake</option>
-                                <option value="1500">Minicake</option>
-                                <option value="2000">Cupcake</option>
-                                <option value="2500">Doughnut</option>
+                                <option value="25">Cake</option>
+                                <option value="20">Minicake</option>
+                                <option value="15">Cupcake</option>
+                                <option value="12">Doughnut</option>
                             </select>
                             <h6 class ="form__text">How many kilos?</h6>
-                            <input id="quantityProduct" class= "form__input" type="number" value="0">
+                            <input id="quantityProduct" class= "form__input" type="number" value="0" min="0">
                             <button type = "button" class="calculation__button" id="btnProduct">Calculate</button>
                         </form>
-                        <div id="infoProduct" class="total">
-                            <em class="total__price">The cost is 1000 <span id="priceProduct"></span> $</em>
+                        <div id="infoProduct" class="total" style="display: none;">
+                            <em class="total__price">The cost is <span id="priceProduct"></span> $</em>
                         </div>
                     </div>
                 </div>        
