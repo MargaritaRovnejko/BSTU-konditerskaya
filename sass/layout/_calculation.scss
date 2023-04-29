@@ -1,0 +1,123 @@
+._picture{
+    background-color: $color-primary;
+}
+
+.calculation__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding-top: 13px;
+    padding-bottom: 0px;
+    @media screen and (max-width: 768px) {
+        gap: 38px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    @media screen and (max-width: 320px) {
+        gap: 16px;
+        padding-top: 3px;
+        padding-bottom: 20px;
+    }
+}
+
+.heading__line {
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+    background-image: linear-gradient(to top, $color-primary 49%, $color-secondary 49%, $color-secondary 51%, $color-primary 51%);
+    @media screen and (max-width: 768px) {
+        width: 67%;
+    }
+}
+
+.h2_color-back {
+    background-color: $color-primary;
+    padding: 30px 39.55px 30px 34.35px;
+    @media screen and (max-width: 768px) {
+        padding: 15px 23px 19px 27px;
+    }
+    @media screen and (max-width: 320px) {
+        padding: 2px 15px 5px 10px;
+    }
+}
+
+
+.form__select
+{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('assets/svg/Arrow.svg');
+    background-repeat: no-repeat;
+    background-position: 94% center;
+    margin: 16px 80px 38px 80px;
+    font-family: 'Merriweather';
+    font-style: italic;
+    background-color: $color-primary;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    border-radius: 10px;
+    color: $color-light;
+    width: 300px;
+    height: 60px;
+    border: 1.5px solid;
+    border-color: $color-light;
+    box-sizing: border-box;
+    padding: 9px 0px 11px 10px;
+    @media screen and (max-width: 768px) {
+        margin: 14px 36px 37px 37px;
+        padding: 8px 0px 11px 17px;
+    }
+    @media screen and (max-width: 320px) {
+        margin: 30px 3px 50px 3px;
+        padding: 8px 0px 11px 16px;
+    }
+}
+
+.total
+{
+    margin: 55px 0px 55px 124px;
+    @media screen and (max-width: 768px) {
+       margin: 67px 0px 51px 98px; 
+    }
+    @media screen and (max-width: 320px) {
+        margin: 45px 0px 26px 84px; 
+    }
+}
+
+.form__input 
+{
+    font-family: 'Merriweather';
+    font-style: italic;
+    background-color: $color-primary;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    border-radius: 10px;
+    color: $color-light;
+    width: 300px;
+    height: 60px;
+    border: 1.5px solid;
+    border-color: $color-light;
+    box-sizing: border-box;
+    padding: 9px 5px 11px 10px;
+    margin: 12px 0px 32px 153px;
+    width: 150px;
+    height: 60px;
+    
+    @media screen and (max-width: 768px) {
+        margin: 14px 0px 24px 110px;
+        padding: 10px 5px 11px 17px;
+    }
+
+    @media screen and (max-width: 320px) {
+        margin: 30px 3px 40px 73px;
+        padding: 8px 5px 11px 18px;
+    }
+}
+
+.calculation{
+    background-color: $color-primary;
+}
