@@ -1,0 +1,154 @@
+@font-face{
+    font-family: Vivaldi;
+    src: url('assets/fonts/Vivaldi script.ttf');
+  }
+
+* {
+    box-sizing: border-box;
+  }
+
+  @media screen and (min-width: $laptop-width) {
+    .wrapper {
+      max-width: $laptop-width;
+      margin: auto auto;
+    }
+  }
+
+  html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 400;
+    font-style: italic;
+    font-family: Merriweather, Times, serif;
+    margin: 0px;
+  }
+
+  h1{
+    font-family: 'Vivaldi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7rem;
+    line-height: 4rem;
+    color: $color-light;
+    margin: 0px;
+    @media screen and (max-width: 768px) {
+      font-size: 5rem;
+      line-height: 4rem;
+    }
+    @media screen and (max-width: 320px) {
+      font-size: 2.7rem;
+      line-height: 1.25rem;
+    }
+  }
+
+  h2{
+    font-family: 'Vivaldi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 40px;
+    display: inline-block;
+    color: $color-secondary;
+    margin: 0px;
+    @media screen and (max-width: 768px) {
+      font-size: 50px;
+      line-height: 40px;
+    }
+    @media screen and (max-width: 320px) {
+      font-size: 27px;
+      line-height: 40px;
+    }
+  }
+
+  h3{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 27px;
+    line-height: 40px;
+    color: $color-light;
+    @media screen and (max-width: 768px) {
+      font-size: 22px;
+      line-height: 40px;
+    }
+    @media screen and (max-width: 320px) {
+      font-size: 18px;
+      line-height: 40px;
+    }
+  }
+
+  h4{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 56px;
+    margin: 0px;
+    color: $color-secondary;
+  }
+
+  h5{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0px;
+    letter-spacing: 0.06em;
+    line-height: 115%;
+    color: $color-secondary;
+    @media screen and (max-width: 768px) {
+      font-size: 20px;
+    }
+    @media screen and (max-width: 320px) {
+      font-size: 11px;
+    }
+  }
+
+  h6{
+    font-family: 'Merriweather';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0px;
+    text-align: center;
+    color: $color-light;
+    @media screen and (max-width: 768px) 
+    {
+      font-size: 30px;
+    }
+    @media screen and (max-width: 320px) 
+    {
+      font-size: 20px;
+    }
+  }
+
+  em{
+    font-family: 'Merriweather';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0px;
+    text-align: center;
+    color: $color-light;
+    @media screen and (max-width: 768px) 
+    {
+      font-size: 25px;
+    }
+    @media screen and (max-width: 320px) 
+    {
+      font-size: 20px;
+    }
+  }
+
+  section {
+    scroll-behavior: smooth;
+  }
+
+

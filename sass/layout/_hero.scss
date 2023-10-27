@@ -1,0 +1,75 @@
+.picture {
+    background-image: url('assets/jpg/Cake_picture.jpg');
+    width: 1024px;
+    height: 675px;
+    @media screen and (max-width: 768px) {
+        background-size: 100% auto;
+        background-image: url('assets/jpg/Cake_picture1.jpg');
+        width: 768px;
+        height: 485px;
+      }
+      @media screen and (max-width: 320px) {
+        background-size: auto 100%;
+        background-image: url('assets/jpg/bg.png');
+        width: 320px;
+        height: 212px;
+        background-repeat: no-repeat;
+      }
+}
+
+.container{
+    padding-left: 26px;
+    padding-right: 26px;
+    max-width: 1024px;
+    margin: auto;
+    scroll-behavior: smooth;
+    @media screen and (max-width: 768px) {
+        padding-left: 22px;
+        padding-right: 22px;
+      }
+      @media screen and (max-width: 320px) {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+}
+
+.hero__content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 355px;
+    display: inline-block;
+    margin-left: 48px;
+    margin-top: 97px;
+    @media screen and (max-width: 768px) {
+        width: 260px;
+        margin-left: 27px;
+        margin-top: 54px;
+    }
+    @media screen and (max-width: 320px) {
+        width: 135px;
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+    p{
+        margin: 0px;
+        padding: 15px 0px 10px 0px;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 35px;
+        color: $color-light;
+        @media screen and (max-width: 768px) {
+            padding: 12px 0px 10px 15px;
+            font-size: 16px;
+            line-height: 25px;
+        }
+        @media screen and (max-width: 320px) {
+            padding: 8px 0px 6px 5px;
+            font-size: 8px;
+            line-height: 16px;
+        }
+    }
+}
+
+
+

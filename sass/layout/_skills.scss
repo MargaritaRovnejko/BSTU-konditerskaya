@@ -1,0 +1,135 @@
+.container {
+    max-width: 1024px;
+    margin: auto;
+    scroll-behavior: smooth;
+    padding-left: 26px;
+    padding-right: 26px;
+    @media screen and (max-width: 768px) {
+        padding-left: 22px;
+        padding-right: 22px;
+      }
+      @media screen and (max-width: 320px) {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+}
+
+.skills__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-top: 40px;
+    padding-bottom: 90px;
+    @media screen and (max-width: 768px) {
+        gap: 28px;
+        padding-top: 25px;
+        padding-bottom: 86px;
+    }
+    @media screen and (max-width: 320px) {
+        gap: 5px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+}
+
+.heading__line {
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+    background-image: linear-gradient(to top, $color-primary 49%, $color-secondary 49%, $color-secondary 51%, $color-primary 51%);
+    @media screen and (max-width: 768px) {
+        width: 67%;
+    }
+}
+
+.h2_color-back {
+    background-color: $color-primary;
+    padding: 30px 39.55px 30px 34.35px;
+    @media screen and (max-width: 768px) {
+        padding: 15px 23px 19px 27px;
+    }
+    @media screen and (max-width: 320px) {
+        padding: 2px 15px 5px 10px;
+    }
+}
+
+.layout-column {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    @media screen and (max-width: 768px) {
+        gap: 50px;
+    }
+    @media screen and (max-width: 320px) {
+        gap: 34px;
+    }
+}
+
+.skillbox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 140px;
+    justify-content: center;
+    @media screen and (max-width: 768px) {
+        gap: 58px;
+        margin-left: 20px;
+    }
+    @media screen and (max-width: 320px) {
+        gap: 34px;
+        margin-left: 0px;
+    }
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 387px;
+    min-width: 376px;
+    @media screen and (max-width: 768px) {
+        max-width: 310px;
+        min-width: 301px; 
+    }
+    @media screen and (max-width: 320px) {
+        max-width: 265px;
+        min-width: 240px; 
+    }
+    h3{
+        margin-top: 38px;
+        margin-bottom: 21px;
+        @media screen and (max-width: 768px) {
+            margin-top: 5px;
+            margin-bottom: 16px;
+        }
+        @media screen and (max-width: 320px) {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+    }
+    p{
+        margin: 0px;
+        text-align: center;
+        color: $color-light;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 40px;
+        font-style: normal;
+        @media screen and (max-width: 768px) {
+            font-size: 20px;
+            margin-left: 5px;
+        }
+        @media screen and (max-width: 320px) {
+            font-size: 16px;
+            line-height: 30px;
+            margin-left: 0px;
+        }
+    }
+}
+
+.skills{
+    background-color: $color-primary;
+}
+
